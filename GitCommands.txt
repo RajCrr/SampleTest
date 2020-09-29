@@ -28,4 +28,5 @@
 14)git revert head--->revert commits without deleting the previous commits
    git push
 
-15)git stash-->puts our local changes to temporary location 
+15)git stash-->puts our local changes to temporary location.
+Hello
