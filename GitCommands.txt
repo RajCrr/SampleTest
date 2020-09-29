@@ -29,4 +29,5 @@
    git push
 
 15)git stash-->puts our local changes to temporary location.
-Hello
+
+16)git push origin --delete dev--->delete branch name from remote repository
