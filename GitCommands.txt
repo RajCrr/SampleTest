@@ -1,0 +1,31 @@
+1)git checkout filename(git checkout index.html)--->revert changes before staging(just if user by mistake edited file without knowing)
+
+2)git reset HEAD filename(git reset HEAD index.html)--->after staging(add)
+
+3)ls .git(git secret folder)
+
+4)git branch newbranchname(git branch dev)---->create new branch
+
+5)git checkout dev--->Pointing to dev branch
+
+6)git merge dev----->Merging files to current branch from dev branch
+
+7)git branch -d dev--->deleting branch name
+
+8)git push -u master origin--->pushing changes to remote repository
+
+9)git pull(Pulling latest changes from remote to local repository)
+
+10)git add . ----->staging/adding files
+
+11)git commit -m "Comments" filename--->commiting files
+
+12)git fetch--->fetch if something is changed in remote repository
+
+13)git reset --hard ID --->resets last commit changes
+   git push -f ----->forcibly push changes to remote repository
+
+14)git revert head--->revert commits without deleting the previous commits
+   git push
+
+15)git stash-->puts our local changes to temporary location 
